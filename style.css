@@ -57,11 +57,32 @@ footer {
 }
 
 /* List Styles */
+
+/* Style for the entire unordered list */
 ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: disc; /* Default bullet style (disc) */
+    list-style-position: outside; /* Bullets outside the text */
+    margin-left: 20px; /* Indent the list */
+    padding-left: 20px; /* Add padding for spacing */
 }
 
+/* Style for individual list items */
 ul li {
-    margin-bottom: 10px;
+    color: #333; /* Text color for list items */
+    font-size: 16px; /* Font size for list items */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Nested unordered lists */
+ul ul {
+    list-style-type: circle; /* Use circle bullets for nested lists */
+    margin-left: 20px; /* Indent nested lists further */
+    padding-left: 20px;
+}
+
+/* Optional: Add hover effect for list items */
+ul li:hover {
+    color: #007BFF; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer */
 }
