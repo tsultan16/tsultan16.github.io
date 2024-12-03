@@ -4,17 +4,17 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.8;
-    background-color: #1E1E2F; /* Dark navy background for a modern look */
-    color: #FFFFFF; /* Clean white text */
+    background-color: #F9F9F9; /* Light gray background for a clean look */
+    color: #333333; /* Dark gray text for readability */
 }
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #1E90FF, #8A2BE2); /* Blue-to-purple gradient */
+    background: linear-gradient(135deg, #4A90E2, #8A2BE2); /* Softer blue-to-purple gradient */
     color: #FFFFFF;
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 header h1 {
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #FF69B4; /* Hot pink hover effect for vibrancy */
+    color: #FFD700; /* Gold hover effect for vibrancy */
 }
 
 /* Section Styles */
@@ -45,15 +45,15 @@ section {
     padding: 30px;
     max-width: 900px;
     margin: 20px auto;
-    background: #252539; /* Slightly lighter dark background for contrast */
+    background: #FFFFFF; /* White background for sections */
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Clean shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Clean shadow for depth */
 }
 
 h2 {
-    color: #8A2BE2; /* Vibrant purple for section headers */
+    color: #4A90E2; /* Softer blue for section headers */
     font-size: 1.8em;
-    border-bottom: 3px solid #1E90FF; /* Blue underline for contrast */
+    border-bottom: 3px solid #8A2BE2; /* Purple underline for contrast */
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -62,7 +62,7 @@ h2 {
 p {
     font-size: 1.1em;
     margin-bottom: 15px;
-    color: #AAAAAA; /* Muted gray for subtle secondary text */
+    color: #555555; /* Medium gray for secondary text */
 }
 
 strong {
@@ -85,7 +85,7 @@ ul ul {
 ul ul li {
     margin-bottom: 10px;
     font-size: 1.1em;
-    color: #FFFFFF; /* Clean white text for list items */
+    color: #333333; /* Dark gray text for list items */
 }
 
 /* Button Styles */
@@ -102,15 +102,15 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-    background: #1E90FF; /* Blue on hover */
+    background: #4A90E2; /* Softer blue on hover */
     transform: scale(1.05); /* Slight zoom effect */
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
-    background: #252539; /* Slightly lighter dark background */
-    color: #AAAAAA; /* Muted gray text */
+    background: #F0F0F0; /* Light gray background for footer */
+    color: #555555; /* Medium gray text */
     padding: 15px 0;
     margin-top: 20px;
     font-size: 0.9em;
@@ -123,7 +123,7 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    color: #1E90FF; /* Blue on hover */
+    color: #4A90E2; /* Softer blue on hover */
 }
 
 /* Projects Page-Specific Styles */
@@ -137,18 +137,18 @@ footer a:hover {
 .projects-page .preview-tile {
     flex: 1;
     text-align: center;
-    background: #333; /* Darker background for tiles */
+    background: #F7F7F7; /* Light gray background for tiles */
     border-radius: 8px;
     padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-decoration: none;
-    color: #FFFFFF; /* White text for tiles */
+    color: #333333; /* Dark gray text for tiles */
 }
 
 .projects-page .preview-tile:hover {
     transform: translateY(-5px); /* Slight lift on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
 .projects-page .preview-tile img {
@@ -160,7 +160,7 @@ footer a:hover {
     margin: 0;
     font-size: 1em;
     font-weight: bold;
-    color: #FFFFFF; /* White text for tile labels */
+    color: #333333; /* Dark gray text for tile labels */
 }
 
 /* Responsive Design for Projects Page */
