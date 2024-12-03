@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Modern, professional font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    background-color: #f4f4f9; /* Light, neutral background for readability */
+    color: #333; /* Dark gray text for contrast */
+}
+
+/* Header Styles */
+header {
+    background: #004080; /* Professional dark blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Highlight link on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Clean shadow for depth */
+}
+
+h2 {
+    color: #004080;
+    font-size: 1.8em;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph and Text Styles */
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555; /* Slightly lighter gray for secondary text */
+}
+
+strong {
+    color: #004080; /* Highlight important text */
+}
+
+/* List Styles */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Remove bullets for outer lists */
+}
+
+ul ul {
+    list-style-type: disc; /* Add bullets for nested lists */
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+ul ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Button Styles */
+button, .btn {
+    display: inline-block;
+    background: #004080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background: #ffcc00; /* Highlight button on hover */
+    color: #004080;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #004080;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 90%; /* Slightly smaller font for smaller screens */
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
