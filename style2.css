@@ -1,17 +1,17 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', Arial, sans-serif; /* Modern font */
+    font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.8;
-    background-color: #F4F4F9; /* Light gray for a clean background */
-    color: #333; /* Dark gray for text */
+    background-color: #1E1E2F; /* Dark navy background for a modern look */
+    color: #FFFFFF; /* Clean white text */
 }
 
 /* Header Styles */
 header {
-    background: rgba(0, 137, 123, 0.9); /* Transparent teal */
-    color: #fff;
+    background: linear-gradient(135deg, #1E90FF, #8A2BE2); /* Blue-to-purple gradient */
+    color: #FFFFFF;
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-    color: #FFB74D; /* Accent color (soft orange) */
+    color: #FFFFFF; /* White links */
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.1em;
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff; /* White on hover for contrast */
+    color: #FF69B4; /* Hot pink hover effect for vibrancy */
 }
 
 /* Section Styles */
@@ -45,15 +45,15 @@ section {
     padding: 30px;
     max-width: 900px;
     margin: 20px auto;
-    background: rgba(255, 255, 255, 0.9); /* Transparent white */
+    background: #252539; /* Slightly lighter dark background for contrast */
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Clean shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Clean shadow for depth */
 }
 
 h2 {
-    color: #00897B; /* Teal for section headers */
+    color: #8A2BE2; /* Vibrant purple for section headers */
     font-size: 1.8em;
-    border-bottom: 3px solid #FFB74D; /* Orange underline for contrast */
+    border-bottom: 3px solid #1E90FF; /* Blue underline for contrast */
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -62,11 +62,11 @@ h2 {
 p {
     font-size: 1.1em;
     margin-bottom: 15px;
-    color: #555; /* Slightly lighter gray for secondary text */
+    color: #AAAAAA; /* Muted gray for subtle secondary text */
 }
 
 strong {
-    color: #00897B; /* Teal for highlighted text */
+    color: #8A2BE2; /* Purple for highlighted text */
 }
 
 /* List Styles */
@@ -85,14 +85,14 @@ ul ul {
 ul ul li {
     margin-bottom: 10px;
     font-size: 1.1em;
-    color: #333;
+    color: #FFFFFF; /* Clean white text for list items */
 }
 
 /* Button Styles */
 button, .btn {
     display: inline-block;
-    background: #00897B; /* Teal background */
-    color: #fff;
+    background: #8A2BE2; /* Purple background */
+    color: #FFFFFF;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -102,28 +102,28 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-    background: #FFB74D; /* Orange on hover */
-    color: #004D40; /* Darker teal text on hover */
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    background: #1E90FF; /* Blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
-    background: rgba(0, 137, 123, 0.9); /* Transparent teal */
-    color: #fff;
+    background: #252539; /* Slightly lighter dark background */
+    color: #AAAAAA; /* Muted gray text */
     padding: 15px 0;
     margin-top: 20px;
     font-size: 0.9em;
 }
 
 footer a {
-    color: #FFB74D; /* Accent orange */
+    color: #8A2BE2; /* Purple links */
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+    color: #1E90FF; /* Blue on hover */
 }
 
 /* Responsive Design */
