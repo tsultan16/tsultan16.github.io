@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Research Projects</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 
@@ -29,7 +29,7 @@
                 This research project formed my Master's thesis at the University of Melbourne, supervised by <a href="https://findanexpert.unimelb.edu.au/profile/1024118-william-umboh" target="_blank">Dr. William Umboh</a>. 
             </p>
             <p>    
-                I took the <a href="https://handbook.unimelb.edu.au/subjects/comp90077" target="_blank">Advanced Algorithms and Data Structures</a> subject (COMP90077) during Semester 1 of 2024, where I was introduced to some very interesting <a href="https://en.wikipedia.org/wiki/Online_algorithm" target="_blank">online algorithms</a>, including one for the <a href="https://en.wikipedia.org/wiki/Set_cover_problem" target="_blank">set cover problem</a> (utilizing linear programming). William was one of the subject coordinators, and he introduced me to the idea of <a href="https://en.wikipedia.org/wiki/Metrical_task_system" target="_blank">Metrical Task Systems (MTS)</a> and had been contemplating using it to develop an algorithm for database index selection. This ultimately culminated in my thesis, where I expanded on William's idea and developed a unique MTS-based approach for database index selection. I then demonstrated empirically that my prototype performed exceptionally well when benchmarked against a current state-of-the-art <a href="https://ieeexplore.ieee.org/document/10113193" target="_blank">Multi-Armed Bandit-based algorithm</a>.                    
+                I took the Advanced Algorithms and Data Structures (<a href="https://handbook.unimelb.edu.au/subjects/comp90077" target="_blank">COMP90077</a>) subject during Semester 1 of 2024, where I was introduced to some very interesting <a href="https://en.wikipedia.org/wiki/Online_algorithm" target="_blank">online algorithms</a>, including one for the <a href="https://en.wikipedia.org/wiki/Set_cover_problem" target="_blank">set cover problem</a> (utilizing linear programming). William was one of the subject coordinators, and he introduced me to the idea of <a href="https://en.wikipedia.org/wiki/Metrical_task_system" target="_blank">Metrical Task Systems (MTS)</a> and had been contemplating using it to develop an algorithm for database index selection. This ultimately culminated in my thesis, where I expanded on William's idea and developed a unique MTS-based approach for database index selection (i.e. an MTS algorithm which autonomously makes decisions for materializing and dropping secondary indexes in a database, based on workload patterns). I then demonstrated empirically that my prototype performed exceptionally well when benchmarked against a current state-of-the-art <a href="https://ieeexplore.ieee.org/document/10113193" target="_blank">Multi-Armed Bandit-based algorithm</a>.                    
             </p>
             <p>
                 The project combined elements from a diverse set of topics including: combinatorial optimization, online algorithms, machine learning and AI, recommender systems, and database tuning. It was an incredibly rewarding experience that not only brought together the knowledge and skills I had acquired from my coursework but also challenged me to push the boundaries of my abilities and explore new ideas. 
@@ -55,7 +55,13 @@
             <h2>Automated Fact Checking of Climate Claims</h2>
             <p><strong>Date:</strong> Apr 2024 - May 2024 | <strong>Institution:</strong> University of Melbourne</p>
             <p>
-                Development of a 2-stage transformer-based ML model for automated fact-verification of climate science claims. Completed as final project for the subject COMP90042 (Natural Language Processing) at Uni Melbourne, Semester 1, 2024.
+                This research project was completed for the Natural Language Processing subject (<a href="https://handbook.unimelb.edu.au/subjects/comp90042" target="_blank">COMP90042</a>) at Uni Melbourne, during Semester 1 of 2024. 
+            </p>
+            <p>
+                The project tackles the problem of automated fact verification, where a climate claim statement is presented to an algorithm which must then perform two major tasks: (1) classify the statement into one of 5 different categories of claim veracity (i.e. the degree of authenticity of the statement). and (2.) it must retreive evidence paragraphs from a pre-defined knowledge source to support its classification decision. I developed a 2-stage tranformer based machine learning approach to solve the problem, with the first stage consisting of a BM-25 retrieval module augmented with transformer based re-ranking, followed by a transformer-based classifier. I also utilized a multi-task pretraining strategy to further enhance the model's performance.     
+            </p>
+            <p>
+                Prior to taking the COMP90042 subject, I had become interested in NLP and acquired significant background knowledge through self-study. This project gave me the opportunity to thoroughly study a braod range of topics including: internals of the transformer architecture, information retreival systems, automated question-answering (which is a similar to the claim verification task) and transfer learning. I also gained facility with using the PyTorch deep-learning framework and in the art of systems design.    
             </p>
             <div class="preview-row">
                 <a href="assets/Fact_Verification_Paper.pdf" target="_blank" class="preview-tile">
