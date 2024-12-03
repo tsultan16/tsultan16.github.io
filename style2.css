@@ -126,21 +126,47 @@ footer a:hover {
     color: #1E90FF; /* Blue on hover */
 }
 
-/* Responsive Design */
+/* Projects Page-Specific Styles */
+.projects-page .preview-row {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: space-between; /* Ensures even spacing between tiles */
+}
+
+.projects-page .preview-tile {
+    flex: 1;
+    text-align: center;
+    background: #333; /* Darker background for tiles */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: #FFFFFF; /* White text for tiles */
+}
+
+.projects-page .preview-tile:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+}
+
+.projects-page .preview-tile img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.projects-page .preview-tile p {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: #FFFFFF; /* White text for tile labels */
+}
+
+/* Responsive Design for Projects Page */
 @media (max-width: 768px) {
-    body {
-        font-size: 90%; /* Slightly smaller font for smaller screens */
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    nav a {
-        font-size: 1em;
-    }
-
-    section {
-        padding: 20px;
+    .projects-page .preview-row {
+        flex-direction: column; /* Stack tiles vertically on smaller screens */
+        gap: 20px;
     }
 }
