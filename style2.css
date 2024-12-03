@@ -1,20 +1,20 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', Arial, sans-serif; /* Modern, professional font */
+    font-family: 'Roboto', Arial, sans-serif; /* Modern font */
     margin: 0;
     padding: 0;
     line-height: 1.8;
-    background-color: #f4f4f9; /* Light, neutral background for readability */
-    color: #333; /* Dark gray text for contrast */
+    background-color: #F4F4F9; /* Light gray for a clean background */
+    color: #333; /* Dark gray for text */
 }
 
 /* Header Styles */
 header {
-    background: #004080; /* Professional dark blue */
+    background: rgba(0, 137, 123, 0.9); /* Transparent teal */
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
 header h1 {
@@ -28,16 +28,16 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #FFB74D; /* Accent color (soft orange) */
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.1em;
     font-weight: 500;
-    transition: color 0.3s ease; /* Smooth hover effect */
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #ffcc00; /* Highlight link on hover */
+    color: #fff; /* White on hover for contrast */
 }
 
 /* Section Styles */
@@ -45,15 +45,15 @@ section {
     padding: 30px;
     max-width: 900px;
     margin: 20px auto;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9); /* Transparent white */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Clean shadow for depth */
 }
 
 h2 {
-    color: #004080;
+    color: #00897B; /* Teal for section headers */
     font-size: 1.8em;
-    border-bottom: 3px solid #ddd;
+    border-bottom: 3px solid #FFB74D; /* Orange underline for contrast */
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -66,7 +66,7 @@ p {
 }
 
 strong {
-    color: #004080; /* Highlight important text */
+    color: #00897B; /* Teal for highlighted text */
 }
 
 /* List Styles */
@@ -91,25 +91,26 @@ ul ul li {
 /* Button Styles */
 button, .btn {
     display: inline-block;
-    background: #004080;
+    background: #00897B; /* Teal background */
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 button:hover, .btn:hover {
-    background: #ffcc00; /* Highlight button on hover */
-    color: #004080;
+    background: #FFB74D; /* Orange on hover */
+    color: #004D40; /* Darker teal text on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
-    background: #004080;
+    background: rgba(0, 137, 123, 0.9); /* Transparent teal */
     color: #fff;
     padding: 15px 0;
     margin-top: 20px;
@@ -117,7 +118,7 @@ footer {
 }
 
 footer a {
-    color: #ffcc00;
+    color: #FFB74D; /* Accent orange */
     text-decoration: none;
 }
 
